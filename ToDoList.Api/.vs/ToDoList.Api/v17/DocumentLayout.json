@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|c:\\users\\alant\\onedrive\\desktop\\prueba t\u00E9cnica junior\\todolist.api\\todolist.api\\application\\services\\todolistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|solutionrelative:todolist.api\\application\\services\\todolistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|c:\\users\\alant\\onedrive\\desktop\\prueba t\u00E9cnica junior\\todolist.api\\todolist.api\\infrastructure\\persistence\\repositories\\todolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|solutionrelative:todolist.api\\infrastructure\\persistence\\repositories\\todolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|c:\\users\\alant\\onedrive\\desktop\\prueba t\u00E9cnica junior\\todolist.api\\todolist.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|solutionrelative:todolist.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|c:\\users\\alant\\onedrive\\desktop\\prueba t\u00E9cnica junior\\todolist.api\\todolist.api\\domain\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|solutionrelative:todolist.api\\domain\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|c:\\users\\alant\\onedrive\\desktop\\prueba t\u00E9cnica junior\\todolist.api\\todolist.api\\application\\interfaces\\repositories\\itodolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F23006-380C-4E19-A68E-8CA1B814296F}|ToDoList.Api\\ToDoList.Api.csproj|solutionrelative:todolist.api\\application\\interfaces\\repositories\\itodolistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDoListService.cs",
+              "DocumentMoniker": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Application\\Services\\ToDoListService.cs",
+              "RelativeDocumentMoniker": "ToDoList.Api\\Application\\Services\\ToDoListService.cs",
+              "ToolTip": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Application\\Services\\ToDoListService.cs",
+              "RelativeToolTip": "ToDoList.Api\\Application\\Services\\ToDoListService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:50:51.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IToDoListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Application\\Interfaces\\Repositories\\IToDoListRepository.cs",
+              "RelativeDocumentMoniker": "ToDoList.Api\\Application\\Interfaces\\Repositories\\IToDoListRepository.cs",
+              "ToolTip": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Application\\Interfaces\\Repositories\\IToDoListRepository.cs",
+              "RelativeToolTip": "ToDoList.Api\\Application\\Interfaces\\Repositories\\IToDoListRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:26:03.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Domain\\Entities\\Tasks.cs",
+              "RelativeDocumentMoniker": "ToDoList.Api\\Domain\\Entities\\Tasks.cs",
+              "ToolTip": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Domain\\Entities\\Tasks.cs",
+              "RelativeToolTip": "ToDoList.Api\\Domain\\Entities\\Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:13:26.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "ToDoList.Api\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "ToDoList.Api\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:12:38.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Infrastructure\\Persistence\\Repositories\\ToDoListRepository.cs",
+              "RelativeDocumentMoniker": "ToDoList.Api\\Infrastructure\\Persistence\\Repositories\\ToDoListRepository.cs",
+              "ToolTip": "C:\\Users\\alant\\OneDrive\\Desktop\\Prueba T\u00E9cnica Junior\\ToDoList.Api\\ToDoList.Api\\Infrastructure\\Persistence\\Repositories\\ToDoListRepository.cs",
+              "RelativeToolTip": "ToDoList.Api\\Infrastructure\\Persistence\\Repositories\\ToDoListRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:11:48.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
