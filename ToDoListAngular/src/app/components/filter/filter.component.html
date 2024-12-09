@@ -1,0 +1,21 @@
+<div class="filter-container my-3">
+  <div class="filter-controls d-flex justify-content-between align-items-center gap-2">
+    <!-- Select para el estado -->
+    <select #status class="form-select" (change)="setFilterStatus(status.value)">
+      <option value="all">Todos</option>
+      <option value="completed">Completo</option>
+      <option value="pending">Incompleto</option>
+    </select>
+
+    <!-- Input para búsqueda -->
+    <div class="input-group" style="max-width: 300px">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Buscar..."
+        #text
+        (input)="setFilterName(text.value)"
+      />
+    </div>
+  </div>
+</div>

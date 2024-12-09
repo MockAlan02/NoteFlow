@@ -1,0 +1,31 @@
+.sidenav-container {
+    height: 100vh;
+  }
+  
+  mat-sidenav {
+    width: 250px;
+  }
+  
+  mat-sidenav-content {
+    padding: 20px;
+  }
+
+
+
+  /* side-menu.component.css */
+mat-list-item {
+  margin-bottom: 8px; /* Espacio entre los elementos */
+  padding: 8px; /* Ajusta el espacio interno */
+  border-radius: 4px; /* Opcional: hace los bordes más suaves */
+}
+
+/* Opcional: agrega un efecto hover */
+mat-list-item:hover {
+  background-color: #f5f5f5; /* Color de fondo al pasar el mouse */
+  cursor: pointer;
+}
+
+/* Estilos para el expansion panel */
+mat-expansion-panel {
+  margin-bottom: 8px; /* Espacio entre los paneles de expansión */
+}

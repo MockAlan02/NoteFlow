@@ -1,0 +1,24 @@
+<div class="dashboard-content">
+  <div class="content">
+    <h1>Welcome to the Dashboards</h1>
+    <div>
+      <app-filter (filteredTasks2)="onFilteredTask($event)"></app-filter>
+    </div>
+    <div class="listtask-content">
+      <!-- Renderización de tareas -->
+      @for (t of tasks; track t.id) {
+      <div>
+        <app-task-cards
+          [task]="t"
+          (onDelete)="deleteTask(t.id)"
+          (onComplete)="completeTask(t.id)"
+        ></app-task-cards>
+      </div>
+      } @empty {
+      <h2>No tasks available</h2>
+      }
+    </div>
+    <!-- Botón flotante -->
+    <button class="add-button" (click)="addTask()">+</button>
+  </div>
+</div>

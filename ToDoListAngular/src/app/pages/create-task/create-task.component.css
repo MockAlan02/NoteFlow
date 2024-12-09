@@ -1,0 +1,60 @@
+.container2{
+    width: 100%;
+    margin: 0; /* Elimina márgenes predeterminados */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #ac55626a;
+    display: flex; /* Utiliza flexbox para centrar contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column;
+}
+
+.form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor */
+    width: 100%; /* Ocupa el ancho total del contenedor */
+    max-width: 600px; /* Tamaño máximo del formulario */
+    height:400px;
+    gap: 1rem;
+    display: flex; /* Flex para contenido interno */
+    flex-direction: column; /* Alinea elementos verticalmente */
+    align-items: center; /* Alinea elementos al centro */
+
+}
+
+.heading {
+    margin-bottom: 1rem; /* Separación inferior */
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+}
+
+.form-group {
+    width: 100%; /* Asegura que los elementos del formulario ocupen todo el ancho */
+}
+
+.form-control {
+    width: 100%; /* Campo de texto ocupa todo el ancho */
+    padding: 0.5rem; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    /* border: 1px solid #ccc; Borde suave */
+}
+
+.btn {
+    width: 100%; /* Botón ocupa todo el ancho */
+    padding: 0.75rem; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño de la fuente */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación de color */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color primario */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin bordes adicionales */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse */
+}

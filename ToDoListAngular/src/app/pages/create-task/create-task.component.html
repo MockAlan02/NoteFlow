@@ -1,0 +1,51 @@
+<div class="container2">
+  <form [formGroup]="userForm" class="form" (ngSubmit)="submitForm()">
+    <h2 class="heading">{{ this.task?.id ? "Update" : "Create" }} Task</h2>
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        id="title"
+        formControlName="title"
+        required
+      />
+      <div
+        *ngIf="
+          userForm.get('title')?.invalid && userForm?.get('title')?.touched
+        "
+        class="text-danger"
+      >
+        Title is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea
+        style="resize: none;"
+        type="text"
+        class="form-control"
+        id="description"
+        formControlName="description"
+        required
+      ></textarea>
+      <div
+        *ngIf="
+          userForm.get('description')?.invalid &&
+          userForm.get('description')?.touched
+        "
+        class="text-danger"
+      >
+        Description is required.
+      </div>
+    </div>
+
+    <div class="w-100">
+      <button type="submit" class="btn btn-primary my-2">
+        {{ this.task?.id ? "Update" : "Create" }}
+      </button>
+      <a href="/" class="btn">Volver al inicio</a>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,67 @@
+.card-content2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Tres columnas responsivas */
+  gap: 10px; /* Espacio entre tarjetas */
+  width: 100%;
+  max-width: 1200px; /* Ajusta el tamaño máximo del contenedor */
+  margin: 0 auto; /* Centra el grid en la página */
+
+}
+
+.card2 {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Sombra elegante */
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Pequeño efecto de elevación al pasar el mouse */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.description button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.description button:hover {
+  background-color: #0056b3;
+}
+
+
+.complete{
+  color: green;
+  font-size: 14px;
+}
+
+.incomplete{
+  color: red;
+  font-size: 14px;
+}

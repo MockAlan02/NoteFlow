@@ -1,0 +1,40 @@
+/* Estilo para el contenedor del filtro */
+.filter-container {
+    padding: 16px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para los controles del filtro */
+  .filter-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  /* Estilo para el select */
+  .filter-controls .form-select {
+    width: 160px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    color: #495057;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el input de búsqueda */
+  .filter-controls .input-group .form-control {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el input de búsqueda al enfocarse */
+  .filter-controls .input-group .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+  }

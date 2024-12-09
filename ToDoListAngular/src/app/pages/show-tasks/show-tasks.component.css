@@ -1,0 +1,51 @@
+.dashboard-content {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ac55626a;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  padding: 16px;
+}
+.listtask-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta para 3 columnas dinámicas */
+  gap: 1rem; /* Espaciado entre tarjetas */
+  justify-content: center; /* Centra las columnas si hay menos de 3 */
+  align-items: start; /* Alineación vertical */
+  width: 100%; /* Ancho completo */
+  max-width: 1200px; /* Limita el ancho máximo del grid */
+}
+
+.add-button {
+  position: fixed; /* Fijo en la ventana */
+  bottom: 20px; /* Espaciado desde la parte inferior */
+  right: 20px; /* Espaciado desde la derecha */
+  width: 60px; /* Ancho del botón */
+  height: 60px; /* Altura del botón */
+  background-color: red; /* Fondo rojo */
+  color: white; /* Texto blanco */
+  border: none; /* Sin bordes */
+  border-radius: 50%; /* Redondo */
+  font-size: 24px; /* Tamaño del texto */
+  display: flex; /* Flex para centrar contenido */
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor */
+  z-index: 1000; /* Aparece sobre otros elementos */
+}
+
+.add-button:hover {
+  transform: scale(1.1); /* Agranda ligeramente al pasar el cursor */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}

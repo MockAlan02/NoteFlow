@@ -1,0 +1,38 @@
+<div class="card-content2">
+  <div class="card2" style="width: 18rem">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title">{{ task?.title }}</h5>
+        <div>
+          <span class="{{ task?.isCompleted ? 'complete' : 'incomplete' }}">
+            {{ task?.isCompleted ? "Complete" : "Incomplete" }}
+          </span>
+        </div>
+        <!-- Toggle button for menu -->
+        <div class="options-toggle">
+          <button mat-icon-button [matMenuTriggerFor]="optionsMenu">
+            <mat-icon style="color: black">more_vert</mat-icon>
+          </button>
+          <mat-menu #optionsMenu="matMenu">
+            <button mat-menu-item (click)="updateLink()">Update</button>
+            <button mat-menu-item (click)="deleteTask()">Delete</button>
+            <button mat-menu-item (click)="completeTask()">
+              Mark as Complete
+            </button>
+          </mat-menu>
+        </div>
+      </div>
+      <p class="card-text">
+        {{
+          isExpanded
+            ? task?.description
+            : (task?.description | slice : 0 : 20) + " ..."
+        }}
+      </p>
+      @if((task?.description?.length ?? 0) > 50){
+      <button class="btn btn-primary" (click)="toggleExpanded()">
+        {{ isExpanded ? "Show Less" : "Show More" }}</button
+      >}
+    </div>
+  </div>
+</div>
